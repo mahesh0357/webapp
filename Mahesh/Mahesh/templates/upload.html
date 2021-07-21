@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UpLoad Data</title>
+</head>
+<body>
+ <form action="{{ url_for('upload_data') }}" method="post" enctype="multipart/form-data">
+    <input type="file" name="tsv_file">
+    <input type="submit">
+</form>
+</form>
+<a href="/">Home</a>
+</body>
+</html>
